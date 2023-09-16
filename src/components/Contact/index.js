@@ -129,7 +129,9 @@ const Contact = () => {
   const form = useRef();
   const redirectToURL = () => {
     // Redirect to the desired URL
-    window.location.replace('https://forms.gle/Z3tLZiwrGBSUWdYSA');
+    //window.location.replace('https://forms.gle/Z3tLZiwrGBSUWdYSA');
+    const newPageURL = 'https://forms.gle/Z3tLZiwrGBSUWdYSA';
+  window.location.href = newPageURL;
   };
 
   const handleSubmit = (e) => {
@@ -159,6 +161,7 @@ const Contact = () => {
           <ContactButton
         type="button"  // Set type to "button" to prevent form submission
         value="Email Me 🚀"
+        
         onClick={redirectToURL}
       />
         </ContactForm>
