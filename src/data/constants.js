@@ -1,3 +1,5 @@
+
+
 export const Bio = {
   name: "Kerthik",
   roles: [
@@ -9,7 +11,7 @@ export const Bio = {
     "Welcome to my world of front-end development, where creativity meets code. I'm a passionate developer known for crafting captivating and user-friendly websites. With a keen eye for design and a commitment to cutting-edge technologies, I transform concepts into stunning digital experiences. Explore my portfolio to witness the seamless fusion of art and technology.",
   github: "https://github.com/kerthik",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1_sR9ZseyNIm_40BFO4ufrUz-CmI4Z8RL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kerthik/",
   //twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/kerthik_12/",
@@ -195,7 +197,10 @@ export const education = [
     school: "Government College of Engineering, Dharmapuri",
     date: "2019 - 2023",
     grade: "7.5 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I graduated with a degree in Computer Science and Engineering from a respected institution. During my time there, I had the privilege of benefiting from dedicated faculty members who were instrumental in fostering my technical skills and nurturing a problem-solving mindset. This journey cultivated in me a deep passion for technology and a strong commitment to achieving excellence in the field. I am genuinely grateful for the transformative education I received, which has not only equipped me with valuable knowledge but also laid the solid foundation upon which I have built my career in computer science. ",
+
+
+   
     degree: "Bachelor of Engineering - B.E, Computer Science and Engineering",
   },
   {
@@ -204,7 +209,7 @@ export const education = [
     school: "Kongu Matriculation Higher Secondary School, Salem",
     date: "2017 - 2019",
     grade: "75%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    desc: "I completed my Class 12 high school education at Kongu Matriculation Higher Secondary School, Salem, where I pursued the Science with Computer Science stream.",
     degree: "Computer Science ",
   },
   
@@ -216,46 +221,40 @@ export const projects = [
     title: "Swiggy clone",
     date: "August 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "I harnessed the power of React JS to craft an engaging user interface and used Redux Toolkit to streamline state management.To bring that extra flair, I employed the magic of Tailwind CSS for captivating styling and made navigation a breeze with React Router.Notable features include a captivating Shimmer UI, a robust search function, advanced filtering, and an intuitive 'Add to Cart' option.I ensured smooth operation with intelligent network checks, complete responsiveness across devices.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/16165408/swiggy.jpeg",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
+      "React",
       "Redux",
+      "Tailwind CSS",
+      "React-Router",
+      
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+   
+    webapp: "https://food-delivery-application-phi.vercel.app/",
   },
   
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Youtube Clone",
+    date: " Sep 2023 ",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "I built an engaging video streaming platform using React, Redux, and Redux Toolkit, ensuring a seamless viewing experience.The design is modern and user-friendly, thanks to Tailwind CSS, while React Query supercharged performance by reducing network delays.I seamlessly integrated the YouTube API, giving users access to a vast library of videos, just like having YouTube at their fingertips! I optimized the search feature with debouncing for lightning-fast results and added real-time chat for an interactive viewing experience.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://images.indianexpress.com/2023/05/youtube-logo-featured.jpg",
     tags: [
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
+      "React-Router",
+      "Tailwind CSS",
+      
       "Redux",
-      "NodeMailer",
+      
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    // github: "https://github.com/rishavchanda/Project-Management-App",
+    webapp: "https://youtube-clone-inky-six.vercel.app/",
   },
   // {
   //   id: 2,
