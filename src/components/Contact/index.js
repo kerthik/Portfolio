@@ -127,6 +127,10 @@ const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
+  const redirectToURL = () => {
+    // Redirect to the desired URL
+    window.location.replace('https://forms.gle/Z3tLZiwrGBSUWdYSA');
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -147,12 +151,16 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          {/* <ContactTitle></ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" /> */}
+          <ContactButton
+        type="button"  // Set type to "button" to prevent form submission
+        value="Email Me 🚀"
+        onClick={redirectToURL}
+      />
         </ContactForm>
         <Snackbar
           open={open}
