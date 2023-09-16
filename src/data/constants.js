@@ -11,7 +11,7 @@ export const Bio = {
     "Welcome to my world of front-end development, where creativity meets code. I'm a passionate developer known for crafting captivating and user-friendly websites. With a keen eye for design and a commitment to cutting-edge technologies, I transform concepts into stunning digital experiences. Explore my portfolio to witness the seamless fusion of art and technology.",
   github: "https://github.com/kerthik",
   resume:
-    "https://drive.google.com/file/d/1_sR9ZseyNIm_40BFO4ufrUz-CmI4Z8RL/view?usp=sharing",
+    "https://drive.google.com/file/d/1LbV7V4Q3uIrrXZFF_-H0lFGr0LO38bSz/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kerthik/",
   //twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/kerthik_12/",
