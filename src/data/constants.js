@@ -233,7 +233,7 @@ export const projects = [
     ],
     category: "web app",
    
-    webapp: "https://food-delivery-application-phi.vercel.app/",
+    webapp: "https://swiggy-clone-amber.vercel.app/",
   },
   
   {
